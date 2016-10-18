@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	font-family: "Myriad Pro", "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+}
+	p {
+		margin: 0;
+	}
+
+	.layout {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	header {
+		/*width: 1800px;*/
+		background-image: url(../images/header.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		height: 950px;
+	}
+		.logo {
+			margin-top: 56px;
+			background-image: url(../images/logo.png);
+		}
+
+		.text {
+			width: 380px;
+			margin-top: 260px;
+			color: white;
+		}
+			.sign {
+				font-size: 38px;
+				padding-bottom: 40px;
+			}
+			.header-article {
+				font-size: 10px;
+				line-height: 2.1;
+			}
+		.rotate {
+			text-transform: uppercase;
+			transform: rotate(270deg);
+			color: white;
+			font-size: 10px;
+			float: left;
+		}

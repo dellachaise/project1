@@ -69,12 +69,13 @@ body {
 /*BLOCK1	*/
 	.main-article {
 		display: flex;
+		justify-content: space-between;
 		position: relative;
 		margin-top: 114px;
 	}
 		.article-flex-box {
 			align-items: stretch;
-			width: 50%;
+			width: 570px;
 		}
 			.main-article h1 {
 				margin: 0 0 20px 0;
@@ -134,21 +135,22 @@ body {
 		}
 		.article-three {
 			background-image: url(../images/article3.png);
+			position: relative;
 		}
 			.article-three .heart {
-				position: relative;
-				right: -266px;
-				bottom: 21px;
+				position: absolute;
+				right: 30px;
 				font-size: 0.81rem;
 			}
 		.articles .article-four {
 			width: 66.66%;
+			position: relative;
 			background-image: url(../images/article4.png);
 		}
 			.article-four .heart {
-				position: relative;
-				right: -651px;
-				bottom: 21px;
+				position: absolute;
+				right: 60px;
+				bottom: 15px;
 				font-size: 0.81rem;
 			}
 		.article-five {
@@ -167,9 +169,10 @@ body {
 		}
 		.aspects-flex {
 			display: flex;
+			justify-content: space-between;
 		}
 			.aspects {
-			padding: 15px;
+			width: 270px;
 			box-sizing: border-box;
 			font-size: 0.71rem;
 		}
@@ -217,11 +220,11 @@ body {
 		}
 		.reasons {
 			display: flex;
+			justify-content: space-between;
 			padding-bottom: 130px;
 		}
 			.reasons section {
-				padding: 0 15px 0 15px;
-				width: 33.33%;
+				width: 370px;
 				box-sizing: border-box;
 				font-size: 0.71rem;
 				color: white;
